@@ -1,0 +1,104 @@
+{
+  "types": [
+    {
+      "name": "standalone",
+      "pageTitle": "Camel standalone",
+      "componentListTitle": "Camel components",
+      "versions": [
+        {
+          "name": "3.18.4",
+          "suffix": "LTS",
+          "javaVersions": ["11", "17"],
+          "defaultJava": "11",
+          "runtimeVersion": "",
+          "archetypeGroupId": "org.apache.camel.archetypes",
+          "archetypeArtifactId": "camel-archetype-main"
+        },
+        {
+          "name": "3.14.6",
+          "suffix": "LTS",
+          "javaVersions": ["11", "1.8"],
+          "defaultJava": "11",
+          "runtimeVersion": "",
+          "archetypeGroupId": "org.apache.camel.archetypes",
+          "archetypeArtifactId": "camel-archetype-main"
+        },
+        {
+          "name": "2.25.4",
+          "suffix": "Legacy",
+          "javaVersions": ["1.8"],
+          "defaultJava": "1.8",
+          "runtimeVersion": "",
+          "archetypeGroupId": "org.apache.camel.archetypes",
+          "archetypeArtifactId": "camel-archetype-java8"
+        }
+      ]
+    },
+    {
+      "name": "spring",
+      "pageTitle": "Camel Spring Boot",
+      "componentListTitle": "Camel components",
+      "versions": [
+        {
+          "name": "3.18.4",
+          "suffix": "LTS",
+          "javaVersions": ["11", "17"],
+          "defaultJava": "11",
+          "runtimeVersion": "",
+          "archetypeGroupId": "org.apache.camel.archetypes",
+          "archetypeArtifactId": "camel-archetype-spring-boot"
+        },
+        {
+          "name": "3.14.6",
+          "suffix": "LTS",
+          "javaVersions": ["11", "1.8"],
+          "defaultJava": "11",
+          "runtimeVersion": "",
+          "archetypeGroupId": "org.apache.camel.archetypes",
+          "archetypeArtifactId": "camel-archetype-spring-boot"
+        },
+        {
+          "name": "2.25.4",
+          "suffix": "Legacy",
+          "javaVersions": ["1.8"],
+          "defaultJava": "1.8",
+          "runtimeVersion": "",
+          "archetypeGroupId": "org.apache.camel.archetypes",
+          "archetypeArtifactId": "camel-archetype-spring-boot"
+        }
+      ]
+    },
+    {
+      "name": "quarkus",
+      "pageTitle": "Camel Quarkus",
+      "componentListTitle": "Camel Quarkus extensions",
+      "versions": [
+        {
+          "name": "2.14.0",
+          "suffix": "",
+          "javaVersions": ["11", "17"],
+          "defaultJava": "11",
+          "runtimeVersion": "2.14.1.Final",
+          "archetypeGroupId": "io.quarkus",
+          "archetypeArtifactId": "quarkus-maven-plugin"
+        }
+      ]
+    },
+    {
+      "name": "kamelet",
+      "pageTitle": "Camel Kamelet standalone",
+      "componentListTitle": "Kamelets",
+      "versions": [
+        {
+          "name": "3.18.4",
+          "suffix": "LTS",
+          "javaVersions": ["11", "17"],
+          "defaultJava": "11",
+          "runtimeVersion": "",
+          "archetypeGroupId": "org.apache.camel.archetypes",
+          "archetypeArtifactId": "camel-archetype-main"
+        }
+      ]
+    }
+  ]
+}
